@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+
+/* Header Box */
+
+.view-type-box {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0 10px;
+    padding-right: 5px;
+}
+
+.screen-view {
+    display: flex;
+}
+
+.screen-view i {
+    padding-right: 5px;
+}
+
+.button {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: grey;
+}
+
+
+/* Container Webcam */
+
+.container-webcam {
+    max-width: 1750px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px 5px;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+
+.webcam-module {
+    height: 150px;
+    width: 240px;
+    display: flex;
+    background-color: indianred;
+}
+
+.webcam-box {
+    position: relative;
+}
+
+.webcam-img img{
+    width: 240px;
+    height: 150px;
+}
+
+.webcam-name {
+    position: absolute;
+    background-color: rgba(105, 105, 105, 0.7);
+    padding: 5px;
+    bottom: 0;
+    left: 0;
+}
+
+
+/* Box Tasti Footer */
+
+.call-box {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222222;
+}
+
+.mute-button {
+    padding-left: 10px;
+}
+
+.select-button {
+    font-size: 15px;
+    line-height: 54px;
+}
+
+.screenshare i {
+    color: #4BC800;
+}
+
+.button-content {
+    display: flex;
+    gap: 0 20px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.buttons-big i{
+    font-size: 30px;
+    padding-bottom: 5px;
+}
+
+.end-call {
+    line-height: 100px;
+    padding: 0 15px;
+    background-color: #4A4A4A;
+}
+
+.end-call p {
+    color: red;
+}
